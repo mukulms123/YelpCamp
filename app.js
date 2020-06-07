@@ -22,20 +22,6 @@ var commentRoutes= require("./routes/comments"),
     campgroundRoutes=require("./routes/campgrounds"),
     indexRoutes= require("./routes/index");
 
-// campground.create({
-//     name:'Mansoori', 
-//     image:"https://www.campgeorgeeverest.com/images/slider/slide1.jpg",
-//     description:"Badhia Jagah hai!"
-//     },function(error,campground){
-//     if(!error){
-//         console.log("Campground added.");
-//         console.log(campground.name);
-//     }
-// });
-
-// var campgrounds=[{name:'Dehradun', image:"https://www.campgeorgeeverest.com/images/slider/slide3.jpg"},
-// {name:'Devil\'s Hill', image:"https://img.traveltriangle.com/blog/wp-content/uploads/2019/12/Camping-In-Mussoorie_20th-dec.jpg"},
-// {name:'Mansoori', image:"https://www.campgeorgeeverest.com/images/slider/slide1.jpg"}];
 
 
 // ==================Passport Configuration=======================//
