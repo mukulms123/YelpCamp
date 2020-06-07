@@ -6,13 +6,11 @@ var express=require("express"),
     flash= require("connect-flash"),
     methodOverride= require("method-override");
 
-
 var app=express();
 app.use(bodyparser.urlencoded({extended:true}));
 app.set("view engine","ejs");
 app.use(methodOverride("_method"));
 app.use(flash());
-
 
 mongoose.connect("mongodb://localhost/yelp_camp");
 
