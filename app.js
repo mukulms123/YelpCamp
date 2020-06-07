@@ -22,10 +22,6 @@ var commentRoutes= require("./routes/comments"),
     campgroundRoutes=require("./routes/campgrounds"),
     indexRoutes= require("./routes/index");
 
-// Seed Database
-//    seedDB();
-
-
 // campground.create({
 //     name:'Mansoori', 
 //     image:"https://www.campgeorgeeverest.com/images/slider/slide1.jpg",
