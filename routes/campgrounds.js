@@ -94,10 +94,7 @@ router.delete("/campgrounds/:id",checkCampgroundOwnership,function(req,res){
             res.redirect("/campgrounds");
         }
     });
-})
-
-
-
+});
 
 
 function isLoggedIn(req,res,next){
