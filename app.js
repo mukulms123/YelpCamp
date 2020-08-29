@@ -12,7 +12,7 @@ app.set("view engine","ejs");
 app.use(methodOverride("_method"));
 app.use(flash());
 
-mongoose.connect("mongodb://localhost/yelp_camp");
+mongoose.connect("mongodb+srv://Mukul:mukul@cluster0.azxd9.mongodb.net/yelpcamp?retryWrites=true&w=majority");
 
 var campground=require("./models/campground");
 var comment=require("./models/comment");
@@ -53,6 +53,6 @@ app.use(commentRoutes);
 app.use(campgroundRoutes);
 
 
-app.listen(8000,'localhost',function(){
+app.listen(process.env.PORT, process.env.IP, function(){
     console.log("YelpCamp has started!");
 });
