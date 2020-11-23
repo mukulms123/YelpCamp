@@ -27,7 +27,7 @@ var commentRoutes= require("./routes/comments"),
 // ==================Passport Configuration=======================//
 
 app.use(require("express-session")({
-        secret: "Fuck you",
+        secret: "Do i know you",
         resave:false,
         saveUninitialized: false
     }));
